@@ -1,0 +1,245 @@
+/***** BASE STYLES *****/
+body {
+width:100%;
+border-top: 6px solid #45ac9d;
+}
+
+main{
+	border:1px solid black;
+}
+
+p{
+	font-family: 'Open-sans', sans-serif;
+	font-size:15px;
+}
+
+h2{
+	font-family: 'montserrat-bold' sans-serif;
+	font-size:25px;
+	font-weight: normal;
+}
+
+/* FONTS */
+@font-face {
+    font-family: 'OpenSans';
+    src: url('fonts/opensans-regular.eot');
+    src: url('fonts/opensans-regular.eot?#iefix') format('embedded-opentype'),
+         url('fonts/opensans-regular.woff') format('woff'),
+         url('fonts/opensans-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'OpenSans';
+    src: url('fonts/opensans-bold.eot');
+    src: url('fonts/opensans-bold.eot?#iefix') format('embedded-opentype'),
+         url('fonts/opensans-bold.woff') format('woff'),
+         url('fonts/opensans-bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'OpenSans';
+    src: url('fonts/opensans-semibold.eot');
+    src: url('fonts/opensans-semibold.eot?#iefix') format('embedded-opentype'),
+         url('fonts/opensans-semibold.woff') format('woff'),
+         url('fonts/opensans-semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/montserrat-regular.eot');
+    src: url('fonts/montserrat-regular.eot?#iefix') format('embedded-opentype'),
+         url('fonts/montserrat-regular.woff') format('woff'),
+         url('fonts/montserrat-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/montserrat-bold.eot');
+    src: url('fonts/montserrat-bold.eot?#iefix') format('embedded-opentype'),
+         url('fonts/montserrat-bold.woff') format('woff'),
+         url('fonts/montserrat-bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+/**** GRID ****/
+
+.full-width{
+    width:80%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.page-header{
+	float: left;
+	width:100%;
+}
+.top-logo{
+	float:left;
+}
+.top-nav{
+	float:right;
+}
+
+.blog-roll{
+	width:68%;
+	float:left;
+	border-right: 1px solid black;
+}
+
+aside{
+	width:31%;
+	float:left;
+}
+
+footer{
+	clear:both;
+}
+
+
+/**** HEADER STYLING ****/
+.page-header{
+	border-bottom:1px solid black; 
+}
+
+h1{
+	font-family: 'myriad-pro', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	color: #45ac9d;
+}
+
+h4{
+	font-size:17px;
+	font-weight:300;
+	margin-top: 1px;
+}
+
+.top-nav a {
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+  	text-transform: uppercase;
+  	font-weight: 300;
+  	display: inline-block;
+	padding-left: 15px;
+	padding-right: 20px;
+	padding-top:53px;	
+}
+
+/**** MAIN STYLING ****/
+
+.entry-wrap{
+	padding-right: 5%;
+	padding-bottom: 9px;
+	border-bottom:1px solid black;
+}
+
+
+.blog-roll{
+	padding-top: 4%;
+	line-height: 27.5px;
+}
+
+
+h6{
+	color: #45ac9d;
+	font-weight: bold;
+}
+
+.read-more{
+	font-size:14px;
+	color:black;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.entry-wrap p {
+	margin-top: 3%;
+}
+
+.read-more span{
+	font-size:14px;
+	color:#45ac9d;
+}
+
+.entry-footer{
+	margin-top: 8%;
+	margin-bottom: 3%;
+}
+
+.entry-terms-author, .entry-terms-category{
+	font-size: 14px;
+	color: #a6a6a6
+}
+.entry-meta a{
+	font-size:14px;
+	color:black;
+	text-decoration:none;
+	font-weight:400;
+}
+
+.entry-summary blockquote {
+	margin: 0 47px;
+	padding: 0 14px;
+	position: relative;
+	font: 1.6em/1.45 'Montserrat', 'OpenSans', sans-serif;
+	quotes: '“ ' ' ”' ;
+}
+.entry-summary blockquote p {
+	margin-bottom: 0.9em;
+}
+.entry-summary blockquote p:before {
+	content: '“';
+	margin-left: -14px;
+	padding-right: 5px;
+}
+.entry-summary blockquote p:after {
+	content: '”';
+	margin-right: -14px;
+	padding-left: 5px;
+}
+.entry-summary blockquote footer {
+	line-height: 0.8em;
+	font-size: 0.7em;
+}
+.entry-summary blockquote footer:before {
+	content: '—';
+}
+
+/**** ASIDE STYLING ****/
+
+.about-me{
+	border-bottom: 1px solid black;
+
+}
+.avatar {
+	border-radius: 50%;
+	overflow: hidden;
+	width:58%;
+	height: 43%;
+	margin: 14% auto auto 22%;
+}
+.avatar img {
+	width: 100%;
+	height: 100%;
+}
+
+.intro-text{
+	padding-left: 15%;
+	padding-right: 15%;
+	padding-top: 5%;
+	margin: auto;
+}
+
+.about-me h3{
+	font-size:15px;
+	font-weight: bold;
+	text-align: justify;
+	line-height: 27.7px;
+
+}
+
+
